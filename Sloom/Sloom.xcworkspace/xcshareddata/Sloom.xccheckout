@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>003827BB-F9AA-4A44-A710-025AB69680D3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Sloom</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>77B4C74681D5C627311E1917E9A93A190E2D6507</key>
+		<string>https://github.com/vtkhoa/MyPro.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Sloom/Sloom.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>77B4C74681D5C627311E1917E9A93A190E2D6507</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vtkhoa/MyPro.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>77B4C74681D5C627311E1917E9A93A190E2D6507</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>77B4C74681D5C627311E1917E9A93A190E2D6507</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Sloom</string>
+		</dict>
+	</array>
+</dict>
+</plist>
