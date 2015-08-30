@@ -15,6 +15,27 @@
 		40D76FDD1B8C932800E610C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D76FDC1B8C932800E610C0 /* Images.xcassets */; };
 		40D76FE01B8C932800E610C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40D76FDE1B8C932800E610C0 /* LaunchScreen.xib */; };
 		40D76FEC1B8C932800E610C0 /* SloomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D76FEB1B8C932800E610C0 /* SloomTests.m */; };
+		8429CFF81B92002900B9FAE7 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 8429CFF71B92002900B9FAE7 /* splash.png */; };
+		8429D01F1B92007B00B9FAE7 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429D0001B92007B00B9FAE7 /* MBProgressHUD.m */; };
+		8429D0201B92007B00B9FAE7 /* ButtonBarExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429D0031B92007B00B9FAE7 /* ButtonBarExampleViewController.m */; };
+		8429D0211B92007B00B9FAE7 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8429D0041B92007B00B9FAE7 /* ButtonCell.xib */; };
+		8429D0251B92007B00B9FAE7 /* XLBarPagerTabStripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429D00F1B92007B00B9FAE7 /* XLBarPagerTabStripViewController.m */; };
+		8429D0261B92007B00B9FAE7 /* XLButtonBarPagerTabStripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429D0111B92007B00B9FAE7 /* XLButtonBarPagerTabStripViewController.m */; };
+		8429D0271B92007B00B9FAE7 /* XLPagerTabStripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429D0131B92007B00B9FAE7 /* XLPagerTabStripViewController.m */; };
+		8429D0281B92007B00B9FAE7 /* ReloadExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429D0161B92007B00B9FAE7 /* ReloadExampleViewController.m */; };
+		8429D0291B92007B00B9FAE7 /* XLBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429D01A1B92007B00B9FAE7 /* XLBarView.m */; };
+		8429D02A1B92007B00B9FAE7 /* XLButtonBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429D01C1B92007B00B9FAE7 /* XLButtonBarView.m */; };
+		8429D02B1B92007B00B9FAE7 /* XLButtonBarViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429D01E1B92007B00B9FAE7 /* XLButtonBarViewCell.m */; };
+		8429D02F1B9200C100B9FAE7 /* ACVChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429D02E1B9200C100B9FAE7 /* ACVChildViewController.m */; };
+		8429D0331B9200F400B9FAE7 /* ACVCoreNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429D0321B9200F400B9FAE7 /* ACVCoreNetwork.m */; };
+		8429D0371B92010500B9FAE7 /* ACVHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429D0361B92010500B9FAE7 /* ACVHomeViewController.m */; };
+		8429D0461B92041400B9FAE7 /* ACVNormalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429D0421B92041400B9FAE7 /* ACVNormalTableViewCell.m */; };
+		8429D0471B92041400B9FAE7 /* ACVVipTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429D0451B92041400B9FAE7 /* ACVVipTableViewCell.m */; };
+		8429D04F1B9204EE00B9FAE7 /* ACVAccountBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429D04B1B9204EE00B9FAE7 /* ACVAccountBackgroundView.m */; };
+		8429D0501B9204EE00B9FAE7 /* ACVAccountContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429D04D1B9204EE00B9FAE7 /* ACVAccountContentView.m */; };
+		8429D0511B9204EE00B9FAE7 /* ACVAccountContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8429D04E1B9204EE00B9FAE7 /* ACVAccountContentView.xib */; };
+		8429D0551B92058D00B9FAE7 /* ACVUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429D0541B92058D00B9FAE7 /* ACVUtilities.m */; };
+		8429D0591B92090100B9FAE7 /* ACVSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429D0581B92090100B9FAE7 /* ACVSplashViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +63,46 @@
 		40D76FEA1B8C932800E610C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40D76FEB1B8C932800E610C0 /* SloomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SloomTests.m; sourceTree = "<group>"; };
 		5D5D24EB5EE89DF92DF55C87 /* Pods-Sloom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sloom.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sloom/Pods-Sloom.release.xcconfig"; sourceTree = "<group>"; };
+		8429CFF71B92002900B9FAE7 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		8429CFFF1B92007B00B9FAE7 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		8429D0001B92007B00B9FAE7 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		8429D0021B92007B00B9FAE7 /* ButtonBarExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonBarExampleViewController.h; sourceTree = "<group>"; };
+		8429D0031B92007B00B9FAE7 /* ButtonBarExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonBarExampleViewController.m; sourceTree = "<group>"; };
+		8429D0041B92007B00B9FAE7 /* ButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonCell.xib; sourceTree = "<group>"; };
+		8429D00E1B92007B00B9FAE7 /* XLBarPagerTabStripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBarPagerTabStripViewController.h; sourceTree = "<group>"; };
+		8429D00F1B92007B00B9FAE7 /* XLBarPagerTabStripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBarPagerTabStripViewController.m; sourceTree = "<group>"; };
+		8429D0101B92007B00B9FAE7 /* XLButtonBarPagerTabStripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLButtonBarPagerTabStripViewController.h; sourceTree = "<group>"; };
+		8429D0111B92007B00B9FAE7 /* XLButtonBarPagerTabStripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLButtonBarPagerTabStripViewController.m; sourceTree = "<group>"; };
+		8429D0121B92007B00B9FAE7 /* XLPagerTabStripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPagerTabStripViewController.h; sourceTree = "<group>"; };
+		8429D0131B92007B00B9FAE7 /* XLPagerTabStripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPagerTabStripViewController.m; sourceTree = "<group>"; };
+		8429D0151B92007B00B9FAE7 /* ReloadExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReloadExampleViewController.h; sourceTree = "<group>"; };
+		8429D0161B92007B00B9FAE7 /* ReloadExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReloadExampleViewController.m; sourceTree = "<group>"; };
+		8429D0191B92007B00B9FAE7 /* XLBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLBarView.h; sourceTree = "<group>"; };
+		8429D01A1B92007B00B9FAE7 /* XLBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLBarView.m; sourceTree = "<group>"; };
+		8429D01B1B92007B00B9FAE7 /* XLButtonBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLButtonBarView.h; sourceTree = "<group>"; };
+		8429D01C1B92007B00B9FAE7 /* XLButtonBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLButtonBarView.m; sourceTree = "<group>"; };
+		8429D01D1B92007B00B9FAE7 /* XLButtonBarViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLButtonBarViewCell.h; sourceTree = "<group>"; };
+		8429D01E1B92007B00B9FAE7 /* XLButtonBarViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLButtonBarViewCell.m; sourceTree = "<group>"; };
+		8429D02D1B9200C100B9FAE7 /* ACVChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACVChildViewController.h; sourceTree = "<group>"; };
+		8429D02E1B9200C100B9FAE7 /* ACVChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACVChildViewController.m; sourceTree = "<group>"; };
+		8429D0311B9200F400B9FAE7 /* ACVCoreNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACVCoreNetwork.h; sourceTree = "<group>"; };
+		8429D0321B9200F400B9FAE7 /* ACVCoreNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACVCoreNetwork.m; sourceTree = "<group>"; };
+		8429D0351B92010500B9FAE7 /* ACVHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACVHomeViewController.h; sourceTree = "<group>"; };
+		8429D0361B92010500B9FAE7 /* ACVHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACVHomeViewController.m; sourceTree = "<group>"; };
+		8429D0411B92041400B9FAE7 /* ACVNormalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACVNormalTableViewCell.h; sourceTree = "<group>"; };
+		8429D0421B92041400B9FAE7 /* ACVNormalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACVNormalTableViewCell.m; sourceTree = "<group>"; };
+		8429D0441B92041400B9FAE7 /* ACVVipTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACVVipTableViewCell.h; sourceTree = "<group>"; };
+		8429D0451B92041400B9FAE7 /* ACVVipTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACVVipTableViewCell.m; sourceTree = "<group>"; };
+		8429D0481B92046800B9FAE7 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		8429D04A1B9204EE00B9FAE7 /* ACVAccountBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACVAccountBackgroundView.h; sourceTree = "<group>"; };
+		8429D04B1B9204EE00B9FAE7 /* ACVAccountBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACVAccountBackgroundView.m; sourceTree = "<group>"; };
+		8429D04C1B9204EE00B9FAE7 /* ACVAccountContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACVAccountContentView.h; sourceTree = "<group>"; };
+		8429D04D1B9204EE00B9FAE7 /* ACVAccountContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACVAccountContentView.m; sourceTree = "<group>"; };
+		8429D04E1B9204EE00B9FAE7 /* ACVAccountContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ACVAccountContentView.xib; sourceTree = "<group>"; };
+		8429D0531B92058D00B9FAE7 /* ACVUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACVUtilities.h; sourceTree = "<group>"; };
+		8429D0541B92058D00B9FAE7 /* ACVUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACVUtilities.m; sourceTree = "<group>"; };
+		8429D0571B92090100B9FAE7 /* ACVSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACVSplashViewController.h; sourceTree = "<group>"; };
+		8429D0581B92090100B9FAE7 /* ACVSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACVSplashViewController.m; sourceTree = "<group>"; };
 		E76F4AEA3F2FA720305CBF0C /* Pods-Sloom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sloom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sloom/Pods-Sloom.debug.xcconfig"; sourceTree = "<group>"; };
 		F7AAAD3DFE6543EA51DCF523 /* libPods-Sloom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sloom.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -88,6 +149,8 @@
 		40D76FCE1B8C932800E610C0 /* Sloom */ = {
 			isa = PBXGroup;
 			children = (
+				8429CFF61B92002900B9FAE7 /* Resources */,
+				8429CFF01B91E86A00B9FAE7 /* Classes */,
 				40D76FD31B8C932800E610C0 /* AppDelegate.h */,
 				40D76FD41B8C932800E610C0 /* AppDelegate.m */,
 				40D76FD61B8C932800E610C0 /* ViewController.h */,
@@ -124,6 +187,204 @@
 				40D76FEA1B8C932800E610C0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8429CFF01B91E86A00B9FAE7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8429D0301B9200F400B9FAE7 /* Network */,
+				8429CFF91B92003500B9FAE7 /* CustomView */,
+				8429CFFA1B92003500B9FAE7 /* Helper */,
+				8429CFFB1B92003500B9FAE7 /* Library */,
+				8429CFFD1B92003500B9FAE7 /* ViewCOntroller */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8429CFF61B92002900B9FAE7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8429CFF71B92002900B9FAE7 /* splash.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8429CFF91B92003500B9FAE7 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				8429D0491B9204EE00B9FAE7 /* AccountView */,
+				8429D0401B92041400B9FAE7 /* NormalCell */,
+				8429D0431B92041400B9FAE7 /* VipCell */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		8429CFFA1B92003500B9FAE7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8429D0521B92058D00B9FAE7 /* Utilities */,
+				8429D0481B92046800B9FAE7 /* Constant.h */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		8429CFFB1B92003500B9FAE7 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				8429CFFE1B92007B00B9FAE7 /* MBProgressHUD */,
+				8429D0011B92007B00B9FAE7 /* XLPagerTabStrip */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		8429CFFD1B92003500B9FAE7 /* ViewCOntroller */ = {
+			isa = PBXGroup;
+			children = (
+				8429D0561B92090100B9FAE7 /* SplashViewController */,
+				8429D0341B92010500B9FAE7 /* HomeViewController */,
+				8429D02C1B9200C100B9FAE7 /* ChildViewController */,
+			);
+			path = ViewCOntroller;
+			sourceTree = "<group>";
+		};
+		8429CFFE1B92007B00B9FAE7 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8429CFFF1B92007B00B9FAE7 /* MBProgressHUD.h */,
+				8429D0001B92007B00B9FAE7 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		8429D0011B92007B00B9FAE7 /* XLPagerTabStrip */ = {
+			isa = PBXGroup;
+			children = (
+				8429D0021B92007B00B9FAE7 /* ButtonBarExampleViewController.h */,
+				8429D0031B92007B00B9FAE7 /* ButtonBarExampleViewController.m */,
+				8429D0041B92007B00B9FAE7 /* ButtonCell.xib */,
+				8429D00D1B92007B00B9FAE7 /* Controllers */,
+				8429D0141B92007B00B9FAE7 /* Helpers */,
+				8429D0171B92007B00B9FAE7 /* Views */,
+			);
+			path = XLPagerTabStrip;
+			sourceTree = "<group>";
+		};
+		8429D00D1B92007B00B9FAE7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8429D00E1B92007B00B9FAE7 /* XLBarPagerTabStripViewController.h */,
+				8429D00F1B92007B00B9FAE7 /* XLBarPagerTabStripViewController.m */,
+				8429D0101B92007B00B9FAE7 /* XLButtonBarPagerTabStripViewController.h */,
+				8429D0111B92007B00B9FAE7 /* XLButtonBarPagerTabStripViewController.m */,
+				8429D0121B92007B00B9FAE7 /* XLPagerTabStripViewController.h */,
+				8429D0131B92007B00B9FAE7 /* XLPagerTabStripViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8429D0141B92007B00B9FAE7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8429D0151B92007B00B9FAE7 /* ReloadExampleViewController.h */,
+				8429D0161B92007B00B9FAE7 /* ReloadExampleViewController.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8429D0171B92007B00B9FAE7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8429D0181B92007B00B9FAE7 /* FXPageControl */,
+				8429D0191B92007B00B9FAE7 /* XLBarView.h */,
+				8429D01A1B92007B00B9FAE7 /* XLBarView.m */,
+				8429D01B1B92007B00B9FAE7 /* XLButtonBarView.h */,
+				8429D01C1B92007B00B9FAE7 /* XLButtonBarView.m */,
+				8429D01D1B92007B00B9FAE7 /* XLButtonBarViewCell.h */,
+				8429D01E1B92007B00B9FAE7 /* XLButtonBarViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8429D0181B92007B00B9FAE7 /* FXPageControl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FXPageControl;
+			sourceTree = "<group>";
+		};
+		8429D02C1B9200C100B9FAE7 /* ChildViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8429D02D1B9200C100B9FAE7 /* ACVChildViewController.h */,
+				8429D02E1B9200C100B9FAE7 /* ACVChildViewController.m */,
+			);
+			path = ChildViewController;
+			sourceTree = "<group>";
+		};
+		8429D0301B9200F400B9FAE7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8429D0311B9200F400B9FAE7 /* ACVCoreNetwork.h */,
+				8429D0321B9200F400B9FAE7 /* ACVCoreNetwork.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8429D0341B92010500B9FAE7 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8429D0351B92010500B9FAE7 /* ACVHomeViewController.h */,
+				8429D0361B92010500B9FAE7 /* ACVHomeViewController.m */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		8429D0401B92041400B9FAE7 /* NormalCell */ = {
+			isa = PBXGroup;
+			children = (
+				8429D0411B92041400B9FAE7 /* ACVNormalTableViewCell.h */,
+				8429D0421B92041400B9FAE7 /* ACVNormalTableViewCell.m */,
+			);
+			path = NormalCell;
+			sourceTree = "<group>";
+		};
+		8429D0431B92041400B9FAE7 /* VipCell */ = {
+			isa = PBXGroup;
+			children = (
+				8429D0441B92041400B9FAE7 /* ACVVipTableViewCell.h */,
+				8429D0451B92041400B9FAE7 /* ACVVipTableViewCell.m */,
+			);
+			path = VipCell;
+			sourceTree = "<group>";
+		};
+		8429D0491B9204EE00B9FAE7 /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				8429D04A1B9204EE00B9FAE7 /* ACVAccountBackgroundView.h */,
+				8429D04B1B9204EE00B9FAE7 /* ACVAccountBackgroundView.m */,
+				8429D04C1B9204EE00B9FAE7 /* ACVAccountContentView.h */,
+				8429D04D1B9204EE00B9FAE7 /* ACVAccountContentView.m */,
+				8429D04E1B9204EE00B9FAE7 /* ACVAccountContentView.xib */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		8429D0521B92058D00B9FAE7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8429D0531B92058D00B9FAE7 /* ACVUtilities.h */,
+				8429D0541B92058D00B9FAE7 /* ACVUtilities.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8429D0561B92090100B9FAE7 /* SplashViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8429D0571B92090100B9FAE7 /* ACVSplashViewController.h */,
+				8429D0581B92090100B9FAE7 /* ACVSplashViewController.m */,
+			);
+			path = SplashViewController;
 			sourceTree = "<group>";
 		};
 		B11FE83EDD42E0CC793278D8 /* Frameworks */ = {
@@ -225,7 +486,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8429CFF81B92002900B9FAE7 /* splash.png in Resources */,
+				8429D0511B9204EE00B9FAE7 /* ACVAccountContentView.xib in Resources */,
 				40D76FDB1B8C932800E610C0 /* Main.storyboard in Resources */,
+				8429D0211B92007B00B9FAE7 /* ButtonCell.xib in Resources */,
 				40D76FE01B8C932800E610C0 /* LaunchScreen.xib in Resources */,
 				40D76FDD1B8C932800E610C0 /* Images.xcassets in Resources */,
 			);
@@ -278,9 +542,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8429D02F1B9200C100B9FAE7 /* ACVChildViewController.m in Sources */,
+				8429D0471B92041400B9FAE7 /* ACVVipTableViewCell.m in Sources */,
+				8429D0201B92007B00B9FAE7 /* ButtonBarExampleViewController.m in Sources */,
+				8429D0501B9204EE00B9FAE7 /* ACVAccountContentView.m in Sources */,
 				40D76FD81B8C932800E610C0 /* ViewController.m in Sources */,
+				8429D0291B92007B00B9FAE7 /* XLBarView.m in Sources */,
+				8429D0461B92041400B9FAE7 /* ACVNormalTableViewCell.m in Sources */,
+				8429D0371B92010500B9FAE7 /* ACVHomeViewController.m in Sources */,
 				40D76FD51B8C932800E610C0 /* AppDelegate.m in Sources */,
+				8429D0261B92007B00B9FAE7 /* XLButtonBarPagerTabStripViewController.m in Sources */,
+				8429D0281B92007B00B9FAE7 /* ReloadExampleViewController.m in Sources */,
+				8429D02A1B92007B00B9FAE7 /* XLButtonBarView.m in Sources */,
+				8429D04F1B9204EE00B9FAE7 /* ACVAccountBackgroundView.m in Sources */,
+				8429D0551B92058D00B9FAE7 /* ACVUtilities.m in Sources */,
+				8429D0591B92090100B9FAE7 /* ACVSplashViewController.m in Sources */,
+				8429D0331B9200F400B9FAE7 /* ACVCoreNetwork.m in Sources */,
 				40D76FD21B8C932800E610C0 /* main.m in Sources */,
+				8429D0251B92007B00B9FAE7 /* XLBarPagerTabStripViewController.m in Sources */,
+				8429D02B1B92007B00B9FAE7 /* XLButtonBarViewCell.m in Sources */,
+				8429D0271B92007B00B9FAE7 /* XLPagerTabStripViewController.m in Sources */,
+				8429D01F1B92007B00B9FAE7 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,8 +690,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Sloom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -419,8 +703,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Sloom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
