@@ -36,6 +36,22 @@
 		8429D0511B9204EE00B9FAE7 /* ACVAccountContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8429D04E1B9204EE00B9FAE7 /* ACVAccountContentView.xib */; };
 		8429D0551B92058D00B9FAE7 /* ACVUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429D0541B92058D00B9FAE7 /* ACVUtilities.m */; };
 		8429D0591B92090100B9FAE7 /* ACVSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429D0581B92090100B9FAE7 /* ACVSplashViewController.m */; };
+		90B86ECF1B94A548007316B6 /* CEGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B86EC81B94A548007316B6 /* CEGORefreshTableHeaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		90B86ED01B94A548007316B6 /* LoadMoreTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B86ECA1B94A548007316B6 /* LoadMoreTableFooterView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		90B86ED11B94A548007316B6 /* MessageInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B86ECC1B94A548007316B6 /* MessageInterceptor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		90B86ED21B94A548007316B6 /* PullTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B86ECE1B94A548007316B6 /* PullTableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		90B86F101B94A8F0007316B6 /* LHJUltility.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B86EF91B94A8F0007316B6 /* LHJUltility.m */; };
+		90B86F111B94A8F0007316B6 /* NSDate+LHJParseDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B86EFB1B94A8F0007316B6 /* NSDate+LHJParseDate.m */; };
+		90B86F121B94A8F0007316B6 /* NSLayoutManager+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B86EFD1B94A8F0007316B6 /* NSLayoutManager+Extra.m */; };
+		90B86F131B94A8F0007316B6 /* NSMutableAttributedString+Attributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B86EFF1B94A8F0007316B6 /* NSMutableAttributedString+Attributes.m */; };
+		90B86F141B94A8F0007316B6 /* NSObject+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B86F011B94A8F0007316B6 /* NSObject+Extra.m */; };
+		90B86F151B94A8F0007316B6 /* NSString+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B86F031B94A8F0007316B6 /* NSString+Extra.m */; };
+		90B86F161B94A8F0007316B6 /* NSString+LHJURlEncodeAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B86F051B94A8F0007316B6 /* NSString+LHJURlEncodeAdditions.m */; };
+		90B86F171B94A8F0007316B6 /* NSURL+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B86F071B94A8F0007316B6 /* NSURL+Extra.m */; };
+		90B86F181B94A8F0007316B6 /* UIButton+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B86F091B94A8F0007316B6 /* UIButton+Extra.m */; };
+		90B86F191B94A8F0007316B6 /* UILabel+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B86F0B1B94A8F0007316B6 /* UILabel+Extra.m */; };
+		90B86F1A1B94A8F0007316B6 /* UITextField+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B86F0D1B94A8F0007316B6 /* UITextField+Extra.m */; };
+		90B86F1B1B94A8F0007316B6 /* UIView+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B86F0F1B94A8F0007316B6 /* UIView+Extra.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +119,39 @@
 		8429D0541B92058D00B9FAE7 /* ACVUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACVUtilities.m; sourceTree = "<group>"; };
 		8429D0571B92090100B9FAE7 /* ACVSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACVSplashViewController.h; sourceTree = "<group>"; };
 		8429D0581B92090100B9FAE7 /* ACVSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACVSplashViewController.m; sourceTree = "<group>"; };
+		90B86EBC1B949E55007316B6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		90B86EC71B94A548007316B6 /* CEGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		90B86EC81B94A548007316B6 /* CEGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		90B86EC91B94A548007316B6 /* LoadMoreTableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadMoreTableFooterView.h; sourceTree = "<group>"; };
+		90B86ECA1B94A548007316B6 /* LoadMoreTableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadMoreTableFooterView.m; sourceTree = "<group>"; };
+		90B86ECB1B94A548007316B6 /* MessageInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageInterceptor.h; sourceTree = "<group>"; };
+		90B86ECC1B94A548007316B6 /* MessageInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageInterceptor.m; sourceTree = "<group>"; };
+		90B86ECD1B94A548007316B6 /* PullTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullTableView.h; sourceTree = "<group>"; };
+		90B86ECE1B94A548007316B6 /* PullTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullTableView.m; sourceTree = "<group>"; };
+		90B86EF81B94A8F0007316B6 /* LHJUltility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LHJUltility.h; path = Sloom/Classes/Helper/Category/LHJUltility.h; sourceTree = SOURCE_ROOT; };
+		90B86EF91B94A8F0007316B6 /* LHJUltility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LHJUltility.m; path = Sloom/Classes/Helper/Category/LHJUltility.m; sourceTree = SOURCE_ROOT; };
+		90B86EFA1B94A8F0007316B6 /* NSDate+LHJParseDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+LHJParseDate.h"; path = "Sloom/Classes/Helper/Category/NSDate+LHJParseDate.h"; sourceTree = SOURCE_ROOT; };
+		90B86EFB1B94A8F0007316B6 /* NSDate+LHJParseDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+LHJParseDate.m"; path = "Sloom/Classes/Helper/Category/NSDate+LHJParseDate.m"; sourceTree = SOURCE_ROOT; };
+		90B86EFC1B94A8F0007316B6 /* NSLayoutManager+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSLayoutManager+Extra.h"; path = "Sloom/Classes/Helper/Category/NSLayoutManager+Extra.h"; sourceTree = SOURCE_ROOT; };
+		90B86EFD1B94A8F0007316B6 /* NSLayoutManager+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutManager+Extra.m"; path = "Sloom/Classes/Helper/Category/NSLayoutManager+Extra.m"; sourceTree = SOURCE_ROOT; };
+		90B86EFE1B94A8F0007316B6 /* NSMutableAttributedString+Attributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableAttributedString+Attributes.h"; path = "Sloom/Classes/Helper/Category/NSMutableAttributedString+Attributes.h"; sourceTree = SOURCE_ROOT; };
+		90B86EFF1B94A8F0007316B6 /* NSMutableAttributedString+Attributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableAttributedString+Attributes.m"; path = "Sloom/Classes/Helper/Category/NSMutableAttributedString+Attributes.m"; sourceTree = SOURCE_ROOT; };
+		90B86F001B94A8F0007316B6 /* NSObject+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Extra.h"; path = "Sloom/Classes/Helper/Category/NSObject+Extra.h"; sourceTree = SOURCE_ROOT; };
+		90B86F011B94A8F0007316B6 /* NSObject+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Extra.m"; path = "Sloom/Classes/Helper/Category/NSObject+Extra.m"; sourceTree = SOURCE_ROOT; };
+		90B86F021B94A8F0007316B6 /* NSString+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Extra.h"; path = "Sloom/Classes/Helper/Category/NSString+Extra.h"; sourceTree = SOURCE_ROOT; };
+		90B86F031B94A8F0007316B6 /* NSString+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extra.m"; path = "Sloom/Classes/Helper/Category/NSString+Extra.m"; sourceTree = SOURCE_ROOT; };
+		90B86F041B94A8F0007316B6 /* NSString+LHJURlEncodeAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+LHJURlEncodeAdditions.h"; path = "Sloom/Classes/Helper/Category/NSString+LHJURlEncodeAdditions.h"; sourceTree = SOURCE_ROOT; };
+		90B86F051B94A8F0007316B6 /* NSString+LHJURlEncodeAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+LHJURlEncodeAdditions.m"; path = "Sloom/Classes/Helper/Category/NSString+LHJURlEncodeAdditions.m"; sourceTree = SOURCE_ROOT; };
+		90B86F061B94A8F0007316B6 /* NSURL+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURL+Extra.h"; path = "Sloom/Classes/Helper/Category/NSURL+Extra.h"; sourceTree = SOURCE_ROOT; };
+		90B86F071B94A8F0007316B6 /* NSURL+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURL+Extra.m"; path = "Sloom/Classes/Helper/Category/NSURL+Extra.m"; sourceTree = SOURCE_ROOT; };
+		90B86F081B94A8F0007316B6 /* UIButton+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+Extra.h"; path = "Sloom/Classes/Helper/Category/UIButton+Extra.h"; sourceTree = SOURCE_ROOT; };
+		90B86F091B94A8F0007316B6 /* UIButton+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Extra.m"; path = "Sloom/Classes/Helper/Category/UIButton+Extra.m"; sourceTree = SOURCE_ROOT; };
+		90B86F0A1B94A8F0007316B6 /* UILabel+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+Extra.h"; path = "Sloom/Classes/Helper/Category/UILabel+Extra.h"; sourceTree = SOURCE_ROOT; };
+		90B86F0B1B94A8F0007316B6 /* UILabel+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Extra.m"; path = "Sloom/Classes/Helper/Category/UILabel+Extra.m"; sourceTree = SOURCE_ROOT; };
+		90B86F0C1B94A8F0007316B6 /* UITextField+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+Extra.h"; path = "Sloom/Classes/Helper/Category/UITextField+Extra.h"; sourceTree = SOURCE_ROOT; };
+		90B86F0D1B94A8F0007316B6 /* UITextField+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+Extra.m"; path = "Sloom/Classes/Helper/Category/UITextField+Extra.m"; sourceTree = SOURCE_ROOT; };
+		90B86F0E1B94A8F0007316B6 /* UIView+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Extra.h"; path = "Sloom/Classes/Helper/Category/UIView+Extra.h"; sourceTree = SOURCE_ROOT; };
+		90B86F0F1B94A8F0007316B6 /* UIView+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extra.m"; path = "Sloom/Classes/Helper/Category/UIView+Extra.m"; sourceTree = SOURCE_ROOT; };
 		E76F4AEA3F2FA720305CBF0C /* Pods-Sloom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sloom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sloom/Pods-Sloom.debug.xcconfig"; sourceTree = "<group>"; };
 		F7AAAD3DFE6543EA51DCF523 /* libPods-Sloom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sloom.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -168,6 +217,7 @@
 			children = (
 				40D76FD01B8C932800E610C0 /* Info.plist */,
 				40D76FD11B8C932800E610C0 /* main.m */,
+				90B86EBC1B949E55007316B6 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -192,6 +242,7 @@
 		8429CFF01B91E86A00B9FAE7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				90B86EBD1B94A244007316B6 /* Common */,
 				8429D0301B9200F400B9FAE7 /* Network */,
 				8429CFF91B92003500B9FAE7 /* CustomView */,
 				8429CFFA1B92003500B9FAE7 /* Helper */,
@@ -222,6 +273,7 @@
 		8429CFFA1B92003500B9FAE7 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				90B86ED31B94A697007316B6 /* Category */,
 				8429D0521B92058D00B9FAE7 /* Utilities */,
 				8429D0481B92046800B9FAE7 /* Constant.h */,
 			);
@@ -387,6 +439,70 @@
 			path = SplashViewController;
 			sourceTree = "<group>";
 		};
+		90B86EBD1B94A244007316B6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				90B86EC51B94A4E6007316B6 /* Controller */,
+			);
+			name = Common;
+			path = Commom;
+			sourceTree = "<group>";
+		};
+		90B86EC51B94A4E6007316B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				90B86EC61B94A521007316B6 /* PullTable */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		90B86EC61B94A521007316B6 /* PullTable */ = {
+			isa = PBXGroup;
+			children = (
+				90B86EC71B94A548007316B6 /* CEGORefreshTableHeaderView.h */,
+				90B86EC81B94A548007316B6 /* CEGORefreshTableHeaderView.m */,
+				90B86EC91B94A548007316B6 /* LoadMoreTableFooterView.h */,
+				90B86ECA1B94A548007316B6 /* LoadMoreTableFooterView.m */,
+				90B86ECB1B94A548007316B6 /* MessageInterceptor.h */,
+				90B86ECC1B94A548007316B6 /* MessageInterceptor.m */,
+				90B86ECD1B94A548007316B6 /* PullTableView.h */,
+				90B86ECE1B94A548007316B6 /* PullTableView.m */,
+			);
+			path = PullTable;
+			sourceTree = "<group>";
+		};
+		90B86ED31B94A697007316B6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				90B86EF81B94A8F0007316B6 /* LHJUltility.h */,
+				90B86EF91B94A8F0007316B6 /* LHJUltility.m */,
+				90B86EFA1B94A8F0007316B6 /* NSDate+LHJParseDate.h */,
+				90B86EFB1B94A8F0007316B6 /* NSDate+LHJParseDate.m */,
+				90B86EFC1B94A8F0007316B6 /* NSLayoutManager+Extra.h */,
+				90B86EFD1B94A8F0007316B6 /* NSLayoutManager+Extra.m */,
+				90B86EFE1B94A8F0007316B6 /* NSMutableAttributedString+Attributes.h */,
+				90B86EFF1B94A8F0007316B6 /* NSMutableAttributedString+Attributes.m */,
+				90B86F001B94A8F0007316B6 /* NSObject+Extra.h */,
+				90B86F011B94A8F0007316B6 /* NSObject+Extra.m */,
+				90B86F021B94A8F0007316B6 /* NSString+Extra.h */,
+				90B86F031B94A8F0007316B6 /* NSString+Extra.m */,
+				90B86F041B94A8F0007316B6 /* NSString+LHJURlEncodeAdditions.h */,
+				90B86F051B94A8F0007316B6 /* NSString+LHJURlEncodeAdditions.m */,
+				90B86F061B94A8F0007316B6 /* NSURL+Extra.h */,
+				90B86F071B94A8F0007316B6 /* NSURL+Extra.m */,
+				90B86F081B94A8F0007316B6 /* UIButton+Extra.h */,
+				90B86F091B94A8F0007316B6 /* UIButton+Extra.m */,
+				90B86F0A1B94A8F0007316B6 /* UILabel+Extra.h */,
+				90B86F0B1B94A8F0007316B6 /* UILabel+Extra.m */,
+				90B86F0C1B94A8F0007316B6 /* UITextField+Extra.h */,
+				90B86F0D1B94A8F0007316B6 /* UITextField+Extra.m */,
+				90B86F0E1B94A8F0007316B6 /* UIView+Extra.h */,
+				90B86F0F1B94A8F0007316B6 /* UIView+Extra.m */,
+			);
+			name = Category;
+			path = ../Commom/Controller/Category;
+			sourceTree = "<group>";
+		};
 		B11FE83EDD42E0CC793278D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -542,27 +658,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90B86F101B94A8F0007316B6 /* LHJUltility.m in Sources */,
+				90B86F1B1B94A8F0007316B6 /* UIView+Extra.m in Sources */,
 				8429D02F1B9200C100B9FAE7 /* ACVChildViewController.m in Sources */,
+				90B86ED11B94A548007316B6 /* MessageInterceptor.m in Sources */,
 				8429D0471B92041400B9FAE7 /* ACVVipTableViewCell.m in Sources */,
+				90B86F131B94A8F0007316B6 /* NSMutableAttributedString+Attributes.m in Sources */,
+				90B86F111B94A8F0007316B6 /* NSDate+LHJParseDate.m in Sources */,
+				90B86F181B94A8F0007316B6 /* UIButton+Extra.m in Sources */,
 				8429D0201B92007B00B9FAE7 /* ButtonBarExampleViewController.m in Sources */,
 				8429D0501B9204EE00B9FAE7 /* ACVAccountContentView.m in Sources */,
 				40D76FD81B8C932800E610C0 /* ViewController.m in Sources */,
 				8429D0291B92007B00B9FAE7 /* XLBarView.m in Sources */,
 				8429D0461B92041400B9FAE7 /* ACVNormalTableViewCell.m in Sources */,
 				8429D0371B92010500B9FAE7 /* ACVHomeViewController.m in Sources */,
+				90B86ECF1B94A548007316B6 /* CEGORefreshTableHeaderView.m in Sources */,
+				90B86F191B94A8F0007316B6 /* UILabel+Extra.m in Sources */,
 				40D76FD51B8C932800E610C0 /* AppDelegate.m in Sources */,
 				8429D0261B92007B00B9FAE7 /* XLButtonBarPagerTabStripViewController.m in Sources */,
 				8429D0281B92007B00B9FAE7 /* ReloadExampleViewController.m in Sources */,
 				8429D02A1B92007B00B9FAE7 /* XLButtonBarView.m in Sources */,
 				8429D04F1B9204EE00B9FAE7 /* ACVAccountBackgroundView.m in Sources */,
 				8429D0551B92058D00B9FAE7 /* ACVUtilities.m in Sources */,
+				90B86F151B94A8F0007316B6 /* NSString+Extra.m in Sources */,
 				8429D0591B92090100B9FAE7 /* ACVSplashViewController.m in Sources */,
+				90B86ED01B94A548007316B6 /* LoadMoreTableFooterView.m in Sources */,
 				8429D0331B9200F400B9FAE7 /* ACVCoreNetwork.m in Sources */,
 				40D76FD21B8C932800E610C0 /* main.m in Sources */,
+				90B86F161B94A8F0007316B6 /* NSString+LHJURlEncodeAdditions.m in Sources */,
+				90B86ED21B94A548007316B6 /* PullTableView.m in Sources */,
+				90B86F141B94A8F0007316B6 /* NSObject+Extra.m in Sources */,
 				8429D0251B92007B00B9FAE7 /* XLBarPagerTabStripViewController.m in Sources */,
 				8429D02B1B92007B00B9FAE7 /* XLButtonBarViewCell.m in Sources */,
 				8429D0271B92007B00B9FAE7 /* XLPagerTabStripViewController.m in Sources */,
+				90B86F1A1B94A8F0007316B6 /* UITextField+Extra.m in Sources */,
 				8429D01F1B92007B00B9FAE7 /* MBProgressHUD.m in Sources */,
+				90B86F171B94A8F0007316B6 /* NSURL+Extra.m in Sources */,
+				90B86F121B94A8F0007316B6 /* NSLayoutManager+Extra.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,6 +761,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -671,6 +804,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -689,6 +823,7 @@
 			baseConfigurationReference = E76F4AEA3F2FA720305CBF0C /* Pods-Sloom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = Sloom/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -702,6 +837,7 @@
 			baseConfigurationReference = 5D5D24EB5EE89DF92DF55C87 /* Pods-Sloom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = Sloom/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

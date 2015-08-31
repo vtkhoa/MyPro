@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  Sloom
+//
+//  Created by Jonny Chinh Tran on 8/31/15.
+//  Copyright (c) 2015 khoa.vt. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+#import "AppDelegate.h"
+#import "AppConstants.h"
+#import "Utility.h"
+#endif
