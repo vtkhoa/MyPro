@@ -52,6 +52,7 @@
 		90B86F191B94A8F0007316B6 /* UILabel+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B86F0B1B94A8F0007316B6 /* UILabel+Extra.m */; };
 		90B86F1A1B94A8F0007316B6 /* UITextField+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B86F0D1B94A8F0007316B6 /* UITextField+Extra.m */; };
 		90B86F1B1B94A8F0007316B6 /* UIView+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B86F0F1B94A8F0007316B6 /* UIView+Extra.m */; };
+		90B86F1E1B94AC0F007316B6 /* UserAndCompany.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B86F1C1B94AC0F007316B6 /* UserAndCompany.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +153,7 @@
 		90B86F0D1B94A8F0007316B6 /* UITextField+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+Extra.m"; path = "Sloom/Classes/Helper/Category/UITextField+Extra.m"; sourceTree = SOURCE_ROOT; };
 		90B86F0E1B94A8F0007316B6 /* UIView+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Extra.h"; path = "Sloom/Classes/Helper/Category/UIView+Extra.h"; sourceTree = SOURCE_ROOT; };
 		90B86F0F1B94A8F0007316B6 /* UIView+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extra.m"; path = "Sloom/Classes/Helper/Category/UIView+Extra.m"; sourceTree = SOURCE_ROOT; };
+		90B86F1D1B94AC0F007316B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UserAndCompany.storyboard; sourceTree = "<group>"; };
 		E76F4AEA3F2FA720305CBF0C /* Pods-Sloom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sloom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sloom/Pods-Sloom.debug.xcconfig"; sourceTree = "<group>"; };
 		F7AAAD3DFE6543EA51DCF523 /* libPods-Sloom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sloom.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -204,6 +206,7 @@
 				40D76FD41B8C932800E610C0 /* AppDelegate.m */,
 				40D76FD61B8C932800E610C0 /* ViewController.h */,
 				40D76FD71B8C932800E610C0 /* ViewController.m */,
+				90B86F1C1B94AC0F007316B6 /* UserAndCompany.storyboard */,
 				40D76FD91B8C932800E610C0 /* Main.storyboard */,
 				40D76FDC1B8C932800E610C0 /* Images.xcassets */,
 				40D76FDE1B8C932800E610C0 /* LaunchScreen.xib */,
@@ -603,6 +606,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8429CFF81B92002900B9FAE7 /* splash.png in Resources */,
+				90B86F1E1B94AC0F007316B6 /* UserAndCompany.storyboard in Resources */,
 				8429D0511B9204EE00B9FAE7 /* ACVAccountContentView.xib in Resources */,
 				40D76FDB1B8C932800E610C0 /* Main.storyboard in Resources */,
 				8429D0211B92007B00B9FAE7 /* ButtonCell.xib in Resources */,
@@ -731,6 +735,14 @@
 				40D76FDF1B8C932800E610C0 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		90B86F1C1B94AC0F007316B6 /* UserAndCompany.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90B86F1D1B94AC0F007316B6 /* Base */,
+			);
+			name = UserAndCompany.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
