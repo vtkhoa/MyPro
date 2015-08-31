@@ -15,7 +15,19 @@
                     <view key="view" contentMode="scaleToFill" id="3pY-mV-HmB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IIO-Ld-EsW">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IIO-Ld-EsW" firstAttribute="leading" secondItem="3pY-mV-HmB" secondAttribute="leading" id="2aI-Zp-8wf"/>
+                            <constraint firstItem="zFe-fX-WJT" firstAttribute="top" secondItem="IIO-Ld-EsW" secondAttribute="bottom" id="Bcf-X0-e08"/>
+                            <constraint firstAttribute="trailing" secondItem="IIO-Ld-EsW" secondAttribute="trailing" id="YAE-6c-fsA"/>
+                            <constraint firstItem="IIO-Ld-EsW" firstAttribute="top" secondItem="3pY-mV-HmB" secondAttribute="top" id="ruO-8x-nyn"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
