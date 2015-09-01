@@ -8,6 +8,7 @@
 
 #ifndef Sloom_Constant_h
 #define Sloom_Constant_h
-
+#define TabUserCompanyStoryboard [UIStoryboard storyboardWithName:@"UserAndCompany" bundle:[NSBundle mainBundle]]
+#define TabMainStoryboard [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]]
 
 #endif

@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#define DEVICE_SIZE [[UIScreen mainScreen] bounds].size
 @interface ACVUtilities : NSObject
 
 typedef enum {

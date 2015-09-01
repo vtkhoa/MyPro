@@ -8,7 +8,8 @@
 
 #import "UITextField+Extra.h"
 #import "NSMutableAttributedString+Attributes.h"
-
+#define kCornerRadiusForTextField 5
+#define kButtonBorderGrayColor [UIColor grayColor]
 @implementation UITextField (Extra)
 
 -(void)formatTextFieldWithUITextField
@@ -20,6 +21,7 @@
     [self setBorderStyle:UITextBorderStyleNone];
     self.layer.cornerRadius = kCornerRadiusForTextField;
     self.layer.borderWidth = 0.5;
+    
     self.layer.borderColor = kButtonBorderGrayColor.CGColor;
     self.layer.masksToBounds = YES;
 }

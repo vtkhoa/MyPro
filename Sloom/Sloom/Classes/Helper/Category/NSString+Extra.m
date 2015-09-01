@@ -8,7 +8,7 @@
 
 #import "NSString+Extra.h"
 #import <CommonCrypto/CommonDigest.h>
-#import "IGFastImage.h"
+//#import "IGFastImage.h"
 
 @implementation NSString (Extra)
 
@@ -171,7 +171,7 @@
     
     return attrStr;
 }
-
+/*
 - (NSString*)processImageInHMTLStrings{
     NSMutableArray* imgTag = [self stringsBetweenString:@"<img" andString:@"/>"];
     NSMutableArray *tableTag = [self stringsBetweenString:@"<table" andString:@">"];
@@ -254,7 +254,7 @@
         return htmlString;
     }else return self;
 }
-
+*/
 - (NSString*)processImageInHMTLString{
     
     CGRect screenSize = [[UIScreen mainScreen]bounds];

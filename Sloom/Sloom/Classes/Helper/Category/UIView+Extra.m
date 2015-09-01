@@ -51,10 +51,10 @@
 
 -(UIView *)loadViewWithUIView:(UIView *)view
 {
-    view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, DEVICE_SIZE.width, DEVICE_SIZE.height)];
-    view.backgroundColor = kUIViewBackgroundWhiteColor;
+   // view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, DEVICE_SIZE.width, d.height)];
+   // view.backgroundColor = kUIViewBackgroundWhiteColor;
     view.layer.zPosition = 1;
-    [LHJLoaderView setOnView:view withTitle:@"Loading..." animated:YES];
+   // [LHJLoaderView setOnView:view withTitle:@"Loading..." animated:YES];
 
     return view;
 }

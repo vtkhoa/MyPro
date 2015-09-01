@@ -36,6 +36,10 @@
 		8429D0511B9204EE00B9FAE7 /* ACVAccountContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8429D04E1B9204EE00B9FAE7 /* ACVAccountContentView.xib */; };
 		8429D0551B92058D00B9FAE7 /* ACVUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429D0541B92058D00B9FAE7 /* ACVUtilities.m */; };
 		8429D0591B92090100B9FAE7 /* ACVSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429D0581B92090100B9FAE7 /* ACVSplashViewController.m */; };
+		90A6BE6F1B960EA7007B08A9 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A6BE6E1B960EA7007B08A9 /* BaseViewController.m */; };
+		90A6BE731B960EC6007B08A9 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A6BE711B960EC6007B08A9 /* HeaderView.m */; };
+		90A6BE741B960EC6007B08A9 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90A6BE721B960EC6007B08A9 /* HeaderView.xib */; };
+		90A6BE7D1B961399007B08A9 /* ViewSelectTypeAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A6BE7C1B961398007B08A9 /* ViewSelectTypeAccount.m */; };
 		90B86ECF1B94A548007316B6 /* CEGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B86EC81B94A548007316B6 /* CEGORefreshTableHeaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		90B86ED01B94A548007316B6 /* LoadMoreTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B86ECA1B94A548007316B6 /* LoadMoreTableFooterView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		90B86ED11B94A548007316B6 /* MessageInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B86ECC1B94A548007316B6 /* MessageInterceptor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -120,6 +124,13 @@
 		8429D0541B92058D00B9FAE7 /* ACVUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACVUtilities.m; sourceTree = "<group>"; };
 		8429D0571B92090100B9FAE7 /* ACVSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACVSplashViewController.h; sourceTree = "<group>"; };
 		8429D0581B92090100B9FAE7 /* ACVSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACVSplashViewController.m; sourceTree = "<group>"; };
+		90A6BE6D1B960EA7007B08A9 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		90A6BE6E1B960EA7007B08A9 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		90A6BE701B960EC6007B08A9 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeaderView.h; path = Sloom/Classes/ViewCOntroller/BaseViewController/HeaderView/HeaderView.h; sourceTree = SOURCE_ROOT; };
+		90A6BE711B960EC6007B08A9 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeaderView.m; path = Sloom/Classes/ViewCOntroller/BaseViewController/HeaderView/HeaderView.m; sourceTree = SOURCE_ROOT; };
+		90A6BE721B960EC6007B08A9 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HeaderView.xib; path = Sloom/Classes/ViewCOntroller/BaseViewController/HeaderView/HeaderView.xib; sourceTree = SOURCE_ROOT; };
+		90A6BE7B1B961398007B08A9 /* ViewSelectTypeAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewSelectTypeAccount.h; sourceTree = "<group>"; };
+		90A6BE7C1B961398007B08A9 /* ViewSelectTypeAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewSelectTypeAccount.m; sourceTree = "<group>"; };
 		90B86EBC1B949E55007316B6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		90B86EC71B94A548007316B6 /* CEGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEGORefreshTableHeaderView.h; sourceTree = "<group>"; };
 		90B86EC81B94A548007316B6 /* CEGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEGORefreshTableHeaderView.m; sourceTree = "<group>"; };
@@ -295,6 +306,8 @@
 		8429CFFD1B92003500B9FAE7 /* ViewCOntroller */ = {
 			isa = PBXGroup;
 			children = (
+				90A6BE771B96131B007B08A9 /* UserCompanyViewController */,
+				90A6BE631B960DC6007B08A9 /* BaseViewController */,
 				8429D0561B92090100B9FAE7 /* SplashViewController */,
 				8429D0341B92010500B9FAE7 /* HomeViewController */,
 				8429D02C1B9200C100B9FAE7 /* ChildViewController */,
@@ -440,6 +453,36 @@
 				8429D0581B92090100B9FAE7 /* ACVSplashViewController.m */,
 			);
 			path = SplashViewController;
+			sourceTree = "<group>";
+		};
+		90A6BE631B960DC6007B08A9 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				90A6BE6D1B960EA7007B08A9 /* BaseViewController.h */,
+				90A6BE6E1B960EA7007B08A9 /* BaseViewController.m */,
+				90A6BE671B960E40007B08A9 /* HeaderView */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		90A6BE671B960E40007B08A9 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				90A6BE701B960EC6007B08A9 /* HeaderView.h */,
+				90A6BE711B960EC6007B08A9 /* HeaderView.m */,
+				90A6BE721B960EC6007B08A9 /* HeaderView.xib */,
+			);
+			name = HeaderView;
+			path = BaseViewController/HeaderView;
+			sourceTree = "<group>";
+		};
+		90A6BE771B96131B007B08A9 /* UserCompanyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				90A6BE7B1B961398007B08A9 /* ViewSelectTypeAccount.h */,
+				90A6BE7C1B961398007B08A9 /* ViewSelectTypeAccount.m */,
+			);
+			path = UserCompanyViewController;
 			sourceTree = "<group>";
 		};
 		90B86EBD1B94A244007316B6 /* Common */ = {
@@ -608,6 +651,7 @@
 				8429CFF81B92002900B9FAE7 /* splash.png in Resources */,
 				90B86F1E1B94AC0F007316B6 /* UserAndCompany.storyboard in Resources */,
 				8429D0511B9204EE00B9FAE7 /* ACVAccountContentView.xib in Resources */,
+				90A6BE741B960EC6007B08A9 /* HeaderView.xib in Resources */,
 				40D76FDB1B8C932800E610C0 /* Main.storyboard in Resources */,
 				8429D0211B92007B00B9FAE7 /* ButtonCell.xib in Resources */,
 				40D76FE01B8C932800E610C0 /* LaunchScreen.xib in Resources */,
@@ -675,12 +719,15 @@
 				40D76FD81B8C932800E610C0 /* ViewController.m in Sources */,
 				8429D0291B92007B00B9FAE7 /* XLBarView.m in Sources */,
 				8429D0461B92041400B9FAE7 /* ACVNormalTableViewCell.m in Sources */,
+				90A6BE731B960EC6007B08A9 /* HeaderView.m in Sources */,
 				8429D0371B92010500B9FAE7 /* ACVHomeViewController.m in Sources */,
 				90B86ECF1B94A548007316B6 /* CEGORefreshTableHeaderView.m in Sources */,
 				90B86F191B94A8F0007316B6 /* UILabel+Extra.m in Sources */,
 				40D76FD51B8C932800E610C0 /* AppDelegate.m in Sources */,
 				8429D0261B92007B00B9FAE7 /* XLButtonBarPagerTabStripViewController.m in Sources */,
 				8429D0281B92007B00B9FAE7 /* ReloadExampleViewController.m in Sources */,
+				90A6BE7D1B961399007B08A9 /* ViewSelectTypeAccount.m in Sources */,
+				90A6BE6F1B960EA7007B08A9 /* BaseViewController.m in Sources */,
 				8429D02A1B92007B00B9FAE7 /* XLButtonBarView.m in Sources */,
 				8429D04F1B9204EE00B9FAE7 /* ACVAccountBackgroundView.m in Sources */,
 				8429D0551B92058D00B9FAE7 /* ACVUtilities.m in Sources */,
@@ -837,7 +884,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = Sloom/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -851,7 +898,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = Sloom/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;

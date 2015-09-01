@@ -197,7 +197,7 @@
     
     [self moveToViewControllerAtIndex:indexPath.item];
     
-    NSLog(@"current index %ld", self.currentIndex);
+    NSLog(@"current index %ld", (unsigned long)self.currentIndex);
     
 }
 

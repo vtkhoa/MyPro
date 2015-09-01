@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LHJLoaderView.h"
 #import <QuartzCore/QuartzCore.h>
 
 @interface UIView (Extra)

@@ -7,7 +7,7 @@
 //
 
 #import "ACVUtilities.h"
-#define DEVICE_SIZE [[UIScreen mainScreen] bounds].size
+
 
 @implementation ACVUtilities
 

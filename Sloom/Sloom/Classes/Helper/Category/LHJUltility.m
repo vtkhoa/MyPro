@@ -27,7 +27,7 @@
         [[UIBezierPath bezierPathWithRect:CGRectMake(0, 10, 20, 1)] fill];
         [[UIBezierPath bezierPathWithRect:CGRectMake(0, 15, 20, 1)] fill];
         
-        [UIColorFromRGB(0x019BE0) setFill];
+
         [[UIBezierPath bezierPathWithRect:CGRectMake(0, 1, 20, 0.5)] fill];
         [[UIBezierPath bezierPathWithRect:CGRectMake(0, 6,  20, 0.5)] fill];
         [[UIBezierPath bezierPathWithRect:CGRectMake(0, 11, 20, 0.5)] fill];
