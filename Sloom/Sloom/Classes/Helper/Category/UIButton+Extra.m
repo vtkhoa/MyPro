@@ -10,18 +10,13 @@
 
 @implementation UIButton (Extra)
 
-- (void)setLayerCornerRadius:(CGFloat)cornerRadius {
-    self.layer.cornerRadius = cornerRadius;
-}
 
--(void)setLayerBorderColor:(UIColor *)color
-{
-    self.layer.borderColor = color.CGColor;
-}
-
--(void)setLayerBorderWidth:(CGFloat)width
+-(void)setLayerBorderWidth:(CGFloat)width borderColor:(UIColor *)color cornerRadius:(CGFloat)cornerRadius
 {
     self.layer.borderWidth = width;
+    self.layer.borderColor = color.CGColor;
+    self.layer.cornerRadius = cornerRadius;
+    self.layer.masksToBounds = YES;
 }
 
 

@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#define kCornerRadiusForTextField 22
+#define kTextFieldBorderGrayColor [UIColor colorWithRed:148/255.0f green:150/255.0f blue:153/255.0f alpha:1.0f]
+#define kTextFieldPlaceholder [UIColor colorWithRed:209/255.0f green:211/255.0f blue:212/255.0f alpha:1.0f]
 @interface UITextField (Extra)
 
 -(void)formatTextFieldWithUITextField;

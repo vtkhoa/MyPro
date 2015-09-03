@@ -29,5 +29,5 @@ typedef enum {
 + (CGFloat)getDeviceWidth;
 + (NSString*)getDocumentPath;
 + (BOOL)addSkipBackupAttributeToItemAtPath:(NSString *)filePathString;
-
++(NSMutableAttributedString*)attributedWithColorAtPosition:(NSInteger)lenghtPosition withString:(NSString*)string withColor:(UIColor*)color;
 @end

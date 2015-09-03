@@ -8,8 +8,7 @@
 
 #import "UITextField+Extra.h"
 #import "NSMutableAttributedString+Attributes.h"
-#define kCornerRadiusForTextField 22
-#define kTextFieldBorderWhiteColor [UIColor whiteColor]
+
 @implementation UITextField (Extra)
 
 -(void)formatTextFieldWithUITextField
@@ -22,7 +21,7 @@
     self.layer.cornerRadius = kCornerRadiusForTextField;
     self.layer.borderWidth = 0.5;
     
-    self.layer.borderColor = kTextFieldBorderWhiteColor.CGColor;
+    self.layer.borderColor = kTextFieldBorderGrayColor.CGColor;
     self.layer.masksToBounds = YES;
 }
 
@@ -34,17 +33,17 @@
     [self setBorderStyle:UITextBorderStyleNone];
     self.layer.cornerRadius = kCornerRadiusForTextField;
     self.layer.borderWidth = 0.5;
-    self.layer.borderColor = kTextFieldBorderWhiteColor.CGColor;
+    self.layer.borderColor = kTextFieldBorderGrayColor.CGColor;
     self.layer.masksToBounds = YES;
 }
 -(void)formatTextFieldWithHardText:(NSString*) text{
     self.layer.cornerRadius = kCornerRadiusForTextField;
     self.layer.borderWidth = 0.5;
     
-    self.layer.borderColor = kTextFieldBorderWhiteColor.CGColor;
+    self.layer.borderColor = kTextFieldBorderGrayColor.CGColor;
     self.layer.masksToBounds = YES;
     
-    NSDictionary *attributes = @{NSForegroundColorAttributeName:[UIColor grayColor],NSFontAttributeName:[UIFont systemFontOfSize:self.font.pointSize]};
+    NSDictionary *attributes = @{NSForegroundColorAttributeName:kTextFieldPlaceholder,NSFontAttributeName:[UIFont systemFontOfSize:self.font.pointSize]};
     
     NSAttributedString *attributedPlaceholder = [[NSAttributedString alloc]initWithString:text attributes:attributes];
     self.attributedPlaceholder = attributedPlaceholder;

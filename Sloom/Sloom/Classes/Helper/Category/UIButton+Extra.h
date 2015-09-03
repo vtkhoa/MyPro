@@ -10,8 +10,5 @@
 
 @interface UIButton (Extra)
 
-- (void)setLayerCornerRadius:(CGFloat)cornerRadiu;
-- (void)setLayerBorderColor:(UIColor *)color;
-- (void)setLayerBorderWidth:(CGFloat)width;
-
+-(void)setLayerBorderWidth:(CGFloat)width borderColor:(UIColor *)color cornerRadius:(CGFloat)cornerRadius;
 @end

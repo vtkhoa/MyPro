@@ -7,7 +7,7 @@
 //
 
 #import "ViewSelectTypeAccount.h"
-
+#define kHeightButton 20
 @interface ViewSelectTypeAccount ()
 
 @end
@@ -21,7 +21,18 @@
     [super setHiddenViewHeader:YES];
     // Do any additional setup after loading the view.
 }
-
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self setUpLayout];
+}
+-(void)setUpLayout{
+    [_btnCompany setLayerBorderWidth:KBoderButtonWidth borderColor:kBoderButtonColorWhite cornerRadius:kHeightButton];
+    [_btnIndividual setLayerBorderWidth:KBoderButtonWidth borderColor:kBoderButtonColorWhite cornerRadius:kHeightButton];
+    [_btnCompany setTitle:@"Company" forState:UIControlStateNormal];
+    [_btnIndividual setTitle:@"Individual" forState:UIControlStateNormal];
+    
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     

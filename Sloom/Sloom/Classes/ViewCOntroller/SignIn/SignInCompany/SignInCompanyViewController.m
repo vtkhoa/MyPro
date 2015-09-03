@@ -16,14 +16,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [super setHiddenViewHeader:NO];
-    [super setTitleHeader:@"Company Form"];
     [self setLayout];
     // Do any additional setup after loading the view.
 }
 
 -(void)setLayout{
+    [super setHiddenViewHeader:NO];
+    [super setTitleHeader:@"Company Form"];
     [_txtFullName formatTextFieldWithHardText:@"Fullname"];
+    [_txtEmail formatTextFieldWithHardText:@"Email"];
+    [_txtPassword formatTextFieldWithHardText:@"Password"];
+    [_txtConfirmPassword formatTextFieldWithHardText:@"Confirm password"];
+    [_txtIndustry formatTextFieldWithHardText:@"Industry"];
+    [_txtAddress formatTextFieldWithHardText:@"Address"];
+    [_txtCountry formatTextFieldWithHardText:@"Country"];
+    [_btnSubmit setTitle:@"Submit" forState:UIControlStateNormal];
+    [_btnSubmit setBackgroundColor:kButtonGreenColor];
+    [_btnSubmit setLayerBorderWidth:KBoderButtonWidth borderColor:kBoderButtonColorWhite cornerRadius:_btnSubmit.frame.size.height/2];
+    NSString* stringTerm = @"Term & Condition";
+    [_lbTerm setTextColor:kTextFieldPlaceholder];
+    [_lbTerm setAttributedText:[ACVUtilities attributedWithColorAtPosition:stringTerm.length withString:_lbTerm.text withColor:kTermConditionColor]];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -46,4 +58,16 @@
 }
 */
 
+- (IBAction)tapHideKB:(id)sender {
+    [_txtAddress resignFirstResponder];
+    [_txtConfirmPassword resignFirstResponder];
+    [_txtCountry resignFirstResponder];
+    [_txtEmail resignFirstResponder];
+    [_txtFullName resignFirstResponder];
+    [_txtIndustry resignFirstResponder];
+    [_txtPassword resignFirstResponder];
+}
+
+- (IBAction)btnSubmit:(id)sender {
+}
 @end

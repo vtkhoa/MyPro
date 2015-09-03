@@ -169,4 +169,15 @@
     return success;
 }
 
+//========config attributtext=======
++(NSMutableAttributedString*)attributedWithColorAtPosition:(NSInteger)lenghtPosition withString:(NSString*)string withColor:(UIColor*)color{
+    NSMutableAttributedString *attString = [[NSMutableAttributedString alloc] initWithString: string];
+    
+        [attString addAttribute: NSForegroundColorAttributeName
+                          value: color
+                          range: NSMakeRange(string.length - lenghtPosition,lenghtPosition)];
+    
+    
+    return  attString;
+}
 @end

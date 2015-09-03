@@ -8,6 +8,8 @@
 
 #import "BaseViewController.h"
 #import "UITextField+Extra.h"
+#import "UIButton+Extra.h"
+
 @interface SignInCompanyViewController : BaseViewController
 @property (weak, nonatomic) IBOutlet UITextField *txtFullName;
 @property (weak, nonatomic) IBOutlet UITextField *txtEmail;
@@ -19,5 +21,8 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *btnSubmit;
 
+@property (weak, nonatomic) IBOutlet UILabel *lbTerm;
+- (IBAction)tapHideKB:(id)sender;
 
+- (IBAction)btnSubmit:(id)sender;
 @end

@@ -7,9 +7,11 @@
 //
 
 #import "BaseViewController.h"
-
+#import "UIButton+Extra.h"
 @interface ViewSelectTypeAccount : BaseViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *btnIndividual;
+@property (weak, nonatomic) IBOutlet UIButton *btnCompany;
 
 
 @end
