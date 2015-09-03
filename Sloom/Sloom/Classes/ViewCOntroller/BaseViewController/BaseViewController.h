@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "HeaderView.h"
 @interface BaseViewController : UIViewController<HeaderViewDelegate>
--(void)setLeftHeader;
--(void)setRightHeader;
+-(void)setLeftHeader:(UIImage*)image stringLabel:(NSString*)strLabel;
+-(void)setRightHeader:(UIImage*)image stringLabel:(NSString*)strLabel;
 -(void)selectBtnLeft;
 -(void)selectBtnRight;
+-(void)setTitleHeader:(NSString*)strTitle;
+-(void)setHiddenViewHeader:(BOOL)status;
 @end

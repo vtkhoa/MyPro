@@ -8,21 +8,21 @@
 
 #import "UITextField+Extra.h"
 #import "NSMutableAttributedString+Attributes.h"
-#define kCornerRadiusForTextField 5
-#define kButtonBorderGrayColor [UIColor grayColor]
+#define kCornerRadiusForTextField 22
+#define kTextFieldBorderWhiteColor [UIColor whiteColor]
 @implementation UITextField (Extra)
 
 -(void)formatTextFieldWithUITextField
 {
-    UIView *spacerViewUsername = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 8, self.frame.size.height)];
-    [self setLeftViewMode:UITextFieldViewModeAlways];
-    [self setLeftView:spacerViewUsername];
-    
-    [self setBorderStyle:UITextBorderStyleNone];
+//    UIView *spacerViewUsername = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 8, self.frame.size.height)];
+//    [self setLeftViewMode:UITextFieldViewModeAlways];
+//    [self setLeftView:spacerViewUsername];
+//    
+//    [self setBorderStyle:UITextBorderStyleNone];
     self.layer.cornerRadius = kCornerRadiusForTextField;
     self.layer.borderWidth = 0.5;
     
-    self.layer.borderColor = kButtonBorderGrayColor.CGColor;
+    self.layer.borderColor = kTextFieldBorderWhiteColor.CGColor;
     self.layer.masksToBounds = YES;
 }
 
@@ -34,25 +34,43 @@
     [self setBorderStyle:UITextBorderStyleNone];
     self.layer.cornerRadius = kCornerRadiusForTextField;
     self.layer.borderWidth = 0.5;
-    self.layer.borderColor = kButtonBorderGrayColor.CGColor;
+    self.layer.borderColor = kTextFieldBorderWhiteColor.CGColor;
     self.layer.masksToBounds = YES;
 }
 -(void)formatTextFieldWithHardText:(NSString*) text{
-    NSMutableAttributedString *hardTextAttString = [[NSMutableAttributedString alloc]initWithString:text];
-    [hardTextAttString addFontWithName:self.font.fontName size:self.font.pointSize substring:text];
-    [hardTextAttString addColor:[UIColor grayColor] substring:text];
+    self.layer.cornerRadius = kCornerRadiusForTextField;
+    self.layer.borderWidth = 0.5;
     
-    CGSize textSize = [text sizeWithAttributes:@{ NSFontAttributeName : [UIFont fontWithName:self.font.fontName size:self.font.pointSize] }];
+    self.layer.borderColor = kTextFieldBorderWhiteColor.CGColor;
+    self.layer.masksToBounds = YES;
     
-    UITextField *hardTextField = [[UITextField alloc]initWithFrame:CGRectMake(5, 0, textSize.width+8, self.frame.size.height)];
-    UIView *spacerViewUsername = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 8, self.frame.size.height)];
-    [hardTextField setLeftViewMode:UITextFieldViewModeAlways];
-    [hardTextField setLeftView:spacerViewUsername];
-    hardTextField.enabled = NO;
-    hardTextField.attributedText = hardTextAttString;
+    NSDictionary *attributes = @{NSForegroundColorAttributeName:[UIColor grayColor],NSFontAttributeName:[UIFont systemFontOfSize:self.font.pointSize]};
     
+    NSAttributedString *attributedPlaceholder = [[NSAttributedString alloc]initWithString:text attributes:attributes];
+    self.attributedPlaceholder = attributedPlaceholder;
+
+    
+    UIView *spacerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 20, self.frame.size.height)];
     [self setLeftViewMode:UITextFieldViewModeAlways];
-    [self setLeftView:hardTextField];
+    [self setLeftView:spacerView];
+
+    
+    
+//    NSMutableAttributedString *hardTextAttString = [[NSMutableAttributedString alloc]initWithString:text];
+//    [hardTextAttString addFontWithName:self.font.fontName size:self.font.pointSize substring:text];
+//    [hardTextAttString addColor:[UIColor grayColor] substring:text];
+//    
+//    CGSize textSize = [text sizeWithAttributes:@{ NSFontAttributeName : [UIFont fontWithName:self.font.fontName size:self.font.pointSize] }];
+//    
+//    UITextField *hardTextField = [[UITextField alloc]initWithFrame:CGRectMake(5, 0, textSize.width+8, self.frame.size.height)];
+//    UIView *spacerViewUsername = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 8, self.frame.size.height)];
+//    [hardTextField setLeftViewMode:UITextFieldViewModeAlways];
+//    [hardTextField setLeftView:spacerViewUsername];
+//    hardTextField.enabled = NO;
+//    hardTextField.attributedText = hardTextAttString;
+    
+//    [self setLeftViewMode:UITextFieldViewModeAlways];
+//    [self setLeftView:hardTextField];
 }
 
 -(void)removeHardText{

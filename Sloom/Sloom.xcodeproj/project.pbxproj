@@ -57,6 +57,8 @@
 		90B86F1A1B94A8F0007316B6 /* UITextField+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B86F0D1B94A8F0007316B6 /* UITextField+Extra.m */; };
 		90B86F1B1B94A8F0007316B6 /* UIView+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B86F0F1B94A8F0007316B6 /* UIView+Extra.m */; };
 		90B86F1E1B94AC0F007316B6 /* UserAndCompany.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B86F1C1B94AC0F007316B6 /* UserAndCompany.storyboard */; };
+		90CEACF61B974BDE00382E48 /* SignInCompanyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CEACF51B974BDE00382E48 /* SignInCompanyViewController.m */; };
+		90CEACF91B974BF800382E48 /* SignInIndividualViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CEACF81B974BF800382E48 /* SignInIndividualViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -165,6 +167,10 @@
 		90B86F0E1B94A8F0007316B6 /* UIView+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Extra.h"; path = "Sloom/Classes/Helper/Category/UIView+Extra.h"; sourceTree = SOURCE_ROOT; };
 		90B86F0F1B94A8F0007316B6 /* UIView+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extra.m"; path = "Sloom/Classes/Helper/Category/UIView+Extra.m"; sourceTree = SOURCE_ROOT; };
 		90B86F1D1B94AC0F007316B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UserAndCompany.storyboard; sourceTree = "<group>"; };
+		90CEACF41B974BDE00382E48 /* SignInCompanyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInCompanyViewController.h; sourceTree = "<group>"; };
+		90CEACF51B974BDE00382E48 /* SignInCompanyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInCompanyViewController.m; sourceTree = "<group>"; };
+		90CEACF71B974BF800382E48 /* SignInIndividualViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInIndividualViewController.h; sourceTree = "<group>"; };
+		90CEACF81B974BF800382E48 /* SignInIndividualViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInIndividualViewController.m; sourceTree = "<group>"; };
 		E76F4AEA3F2FA720305CBF0C /* Pods-Sloom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sloom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sloom/Pods-Sloom.debug.xcconfig"; sourceTree = "<group>"; };
 		F7AAAD3DFE6543EA51DCF523 /* libPods-Sloom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sloom.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -306,6 +312,7 @@
 		8429CFFD1B92003500B9FAE7 /* ViewCOntroller */ = {
 			isa = PBXGroup;
 			children = (
+				90CEACF11B974B5E00382E48 /* SignIn */,
 				90A6BE771B96131B007B08A9 /* UserCompanyViewController */,
 				90A6BE631B960DC6007B08A9 /* BaseViewController */,
 				8429D0561B92090100B9FAE7 /* SplashViewController */,
@@ -549,6 +556,33 @@
 			path = ../Commom/Controller/Category;
 			sourceTree = "<group>";
 		};
+		90CEACF11B974B5E00382E48 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				90CEACF31B974B7600382E48 /* SignInCompany */,
+				90CEACF21B974B6800382E48 /* SignInIndividual */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		90CEACF21B974B6800382E48 /* SignInIndividual */ = {
+			isa = PBXGroup;
+			children = (
+				90CEACF71B974BF800382E48 /* SignInIndividualViewController.h */,
+				90CEACF81B974BF800382E48 /* SignInIndividualViewController.m */,
+			);
+			path = SignInIndividual;
+			sourceTree = "<group>";
+		};
+		90CEACF31B974B7600382E48 /* SignInCompany */ = {
+			isa = PBXGroup;
+			children = (
+				90CEACF41B974BDE00382E48 /* SignInCompanyViewController.h */,
+				90CEACF51B974BDE00382E48 /* SignInCompanyViewController.m */,
+			);
+			path = SignInCompany;
+			sourceTree = "<group>";
+		};
 		B11FE83EDD42E0CC793278D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -726,6 +760,7 @@
 				40D76FD51B8C932800E610C0 /* AppDelegate.m in Sources */,
 				8429D0261B92007B00B9FAE7 /* XLButtonBarPagerTabStripViewController.m in Sources */,
 				8429D0281B92007B00B9FAE7 /* ReloadExampleViewController.m in Sources */,
+				90CEACF91B974BF800382E48 /* SignInIndividualViewController.m in Sources */,
 				90A6BE7D1B961399007B08A9 /* ViewSelectTypeAccount.m in Sources */,
 				90A6BE6F1B960EA7007B08A9 /* BaseViewController.m in Sources */,
 				8429D02A1B92007B00B9FAE7 /* XLButtonBarView.m in Sources */,
@@ -740,6 +775,7 @@
 				90B86ED21B94A548007316B6 /* PullTableView.m in Sources */,
 				90B86F141B94A8F0007316B6 /* NSObject+Extra.m in Sources */,
 				8429D0251B92007B00B9FAE7 /* XLBarPagerTabStripViewController.m in Sources */,
+				90CEACF61B974BDE00382E48 /* SignInCompanyViewController.m in Sources */,
 				8429D02B1B92007B00B9FAE7 /* XLButtonBarViewCell.m in Sources */,
 				8429D0271B92007B00B9FAE7 /* XLPagerTabStripViewController.m in Sources */,
 				90B86F1A1B94A8F0007316B6 /* UITextField+Extra.m in Sources */,

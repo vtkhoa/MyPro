@@ -1,42 +1,35 @@
 //
-//  ViewSelectTypeAccount.m
+//  SignInIndividualViewController.m
 //  Sloom
 //
 //  Created by Jonny Chinh Tran on 9/2/15.
 //  Copyright (c) 2015 khoa.vt. All rights reserved.
 //
 
-#import "ViewSelectTypeAccount.h"
+#import "SignInIndividualViewController.h"
 
-@interface ViewSelectTypeAccount ()
+@interface SignInIndividualViewController ()
 
 @end
 
-@implementation ViewSelectTypeAccount
+@implementation SignInIndividualViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    [super setLeftHeader];
-//    [super setRightHeader];
-    [super setHiddenViewHeader:YES];
+    [super setHiddenViewHeader:NO];
+    [super setTitleHeader:@"Individual Form"];
     // Do any additional setup after loading the view.
 }
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    
     // Dispose of any resources that can be recreated.
 }
 
 
-
-//-(void)selectBtnLeft{
-//    NSLog(@"select btn left");
-//}
-//
-//-(void)selectBtnRight{
-//    NSLog(@"select btn right");
-//}
+#pragma mark delegate from headerview super view
+-(void)selectBtnLeft{
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
 /*
 #pragma mark - Navigation

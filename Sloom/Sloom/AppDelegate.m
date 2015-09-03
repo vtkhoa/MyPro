@@ -20,6 +20,10 @@
     self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
     UIViewController *viewController = [TabUserCompanyStoryboard instantiateViewControllerWithIdentifier:@"StartView"];
     self.window.rootViewController = viewController;//making a view to root view
+    UIImageView* imageBackground = [[UIImageView alloc]initWithFrame:self.window.bounds];
+    [imageBackground setImage:[UIImage imageNamed:@"splash.png"]];
+    [self.window addSubview:imageBackground];
+    [self.window sendSubviewToBack:imageBackground];
     [self.window makeKeyAndVisible];
 
     return YES;

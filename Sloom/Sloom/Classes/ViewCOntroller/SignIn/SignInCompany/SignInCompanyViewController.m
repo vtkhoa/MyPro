@@ -1,42 +1,40 @@
 //
-//  ViewSelectTypeAccount.m
+//  SignInCompanyViewController.m
 //  Sloom
 //
 //  Created by Jonny Chinh Tran on 9/2/15.
 //  Copyright (c) 2015 khoa.vt. All rights reserved.
 //
 
-#import "ViewSelectTypeAccount.h"
+#import "SignInCompanyViewController.h"
 
-@interface ViewSelectTypeAccount ()
+@interface SignInCompanyViewController ()
 
 @end
 
-@implementation ViewSelectTypeAccount
+@implementation SignInCompanyViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    [super setLeftHeader];
-//    [super setRightHeader];
-    [super setHiddenViewHeader:YES];
+    [super setHiddenViewHeader:NO];
+    [super setTitleHeader:@"Company Form"];
+    [self setLayout];
     // Do any additional setup after loading the view.
+}
+
+-(void)setLayout{
+    [_txtFullName formatTextFieldWithHardText:@"Fullname"];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    
     // Dispose of any resources that can be recreated.
 }
 
-
-
-//-(void)selectBtnLeft{
-//    NSLog(@"select btn left");
-//}
-//
-//-(void)selectBtnRight{
-//    NSLog(@"select btn right");
-//}
+#pragma mark delegate from headerview super view
+-(void)selectBtnLeft{
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
 /*
 #pragma mark - Navigation
