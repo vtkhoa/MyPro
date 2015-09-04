@@ -16,10 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setLayout];
+    
     // Do any additional setup after loading the view.
 }
-
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self setLayout];
+}
 -(void)setLayout{
     [super setHiddenViewHeader:NO];
     [super setTitleHeader:@"Company Form"];

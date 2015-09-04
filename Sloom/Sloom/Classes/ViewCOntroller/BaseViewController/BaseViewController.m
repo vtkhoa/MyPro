@@ -21,6 +21,10 @@
     headerView = [[HeaderView alloc]initWithFrame:CGRectMake(0, 20,DEVICE_SIZE.width , 44)];
     headerView.delegate = self;
     [self.view addSubview:headerView];
+    if ( SystemVersion>=7.0) {
+        self.automaticallyAdjustsScrollViewInsets = NO;
+    }
+    [headerView.imageLeft setImage:[UIImage imageNamed:@"arrow_gray_left.png"]];
     // Do any additional setup after loading the view.
 }
 

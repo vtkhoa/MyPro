@@ -16,12 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setLayout];
+    
     // Do any additional setup after loading the view.
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self setLayout];
 }
 -(void)setLayout{
     [super setHiddenViewHeader:NO];

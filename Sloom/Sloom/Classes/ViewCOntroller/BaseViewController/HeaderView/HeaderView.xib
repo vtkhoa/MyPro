@@ -19,9 +19,9 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tYd-Zn-ph5">
-                    <rect key="frame" x="8" y="7" width="30" height="30"/>
+                    <rect key="frame" x="8" y="12" width="20" height="20"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="30" id="dh4-88-OKz"/>
+                        <constraint firstAttribute="width" constant="20" id="dh4-88-OKz"/>
                         <constraint firstAttribute="width" secondItem="tYd-Zn-ph5" secondAttribute="height" multiplier="1:1" id="eBp-ZY-6Kn"/>
                     </constraints>
                 </imageView>
